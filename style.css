@@ -11,6 +11,12 @@ body{
     
 }
 
+.welcome-text{
+    font-weight: bolder;
+    color: white;
+    padding: 3rem;
+}
+
 .cont-principal{
     padding-bottom: 1rem;
     padding-top: 1rem;
