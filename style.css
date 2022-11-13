@@ -1,5 +1,7 @@
 body{
     background-image: url(img/special-stars-bg-2.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .separador{
@@ -13,8 +15,6 @@ body{
     padding-bottom: 1rem;
     padding-top: 1rem;
     background-color: black;
-    background-size: cover;
-    background-attachment: fixed;
     align-self: center;
     display: flex;
     flex-direction: column;
@@ -101,6 +101,8 @@ body{
 
 
 @media screen and (max-width: 960px) {
- 
+    .button-index{
+        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 17vh;
+    } 
 
 }
