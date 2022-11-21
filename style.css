@@ -105,7 +105,7 @@ body{
 }
 
 @keyframes logoblur {
-    0% {filter: opacity(60%) blur(3px);}
+    0% {filter: opacity(40%) blur(3px);}
     30% {filter: opacity(70%) blur(2px);}
     50% {filter: opacity(100%) blur(1px);}
     60% {filter: opacity(100%) blur(1px);}
