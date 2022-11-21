@@ -94,9 +94,9 @@ body{
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg);}
-    50% {transform: rotate(360deg);}
-    100% {transform: rotate(0deg);}
+    0% {transform: rotate(0deg); filter: blur(0px);}
+    50% {transform: rotate(360deg); filter: blur(10px);}
+    100% {transform: rotate(0deg); filter: blur(0px);}
 }
 
 @keyframes logoblur {
@@ -182,7 +182,7 @@ body{
 .button-about {
     /*margin-top: 5rem;*/
     /*margin-bottom: 1rem;*/
-    animation-duration: 5s;
+    animation-duration: 4s;
     animation-name: slidein-2;
     animation-iteration-count:var(1);
     max-width: 100%;
