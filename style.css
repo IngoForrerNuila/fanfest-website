@@ -317,22 +317,22 @@ body{
 @media screen and (max-width: 960px) {
     .button-index{
         margin-top: auto; margin-bottom: auto; margin-left: 0.5rem; margin-right: 0.5rem; max-width: 100%; height: 15vh;
-        animation-duration: 0s;
-        animation-iteration-count:var(0);
+        animation-duration: 1s;
+        animation-iteration-count:1;
         padding: 0.5rem;
     } 
 
     .button-index-2{
         margin-top: auto; margin-bottom: auto; max-width: 100%; height: 10vh;
-        animation-duration: 0s;
-        animation-iteration-count:var(0);
+        animation-duration: 1s;
+        animation-iteration-count:1;
         
     }
 
     .button-index-3{
         margin-top: auto; margin-bottom: auto; max-width: 100%; height: 10vh;
-        animation-duration: 0s;
-        animation-iteration-count:var(0);
+        animation-duration: 1s;
+        animation-iteration-count:1;
         
     } 
 
@@ -431,6 +431,12 @@ body{
         0%{height: 20vh;}
         
         100%{height: 65vh;}
+    }
+
+    @keyframes slidein {
+        0% {filter: opacity(0%);}
+        
+        100%{filter: opacity(100%);}
     }
 
 }
