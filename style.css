@@ -427,6 +427,10 @@ body{
         
     }
 
+    .about-text{
+        font-size: 100%;        
+    }
+
     @keyframes maximize {
         0%{height: 20vh;}
         
