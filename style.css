@@ -253,4 +253,9 @@ body{
         
     }
 
+    .cont-visor{
+        position: relative;
+        display: block;
+    }
+
 }
