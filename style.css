@@ -33,6 +33,7 @@ body{
      padding-bottom: 1rem;
      padding-top: 1rem;
      padding: 2rem;
+     display: grid;
            
 }
 
