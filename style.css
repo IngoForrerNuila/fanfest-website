@@ -207,7 +207,7 @@ body{
 
 @media screen and (max-width: 960px) {
     .button-index{
-        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 12vh;
+        margin-top: auto; margin-bottom: auto; margin-left: 0.5rem; margin-right: 0.5rem; max-width: 100%; height: 15vh;
         animation-duration: 0s;
         animation-iteration-count:var(0);
         padding: 0.5rem;
@@ -240,7 +240,7 @@ body{
 
    .ff-visor{
     max-width: 100%;
-    height: 37vh;
+    height: 40vh;
     padding: 0.5rem;
     margin: 2rem;
     
@@ -248,7 +248,7 @@ body{
 
     .ff-visor-bg {
     max-width: 100%;
-    height: 37vh;
+    height: 40vh;
     padding: 0.5rem;
     margin: 2rem;
     }
