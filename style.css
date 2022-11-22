@@ -227,7 +227,7 @@ body{
     }
 
     .button-index {
-        animation-duration: 1s;
+        animation-duration: 0s;
         animation-name: slidein;
         animation-iteration-count:var(0);
         
