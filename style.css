@@ -240,12 +240,14 @@ body{
    .ff-visor{
     max-width: 100%;
     height: 37vh;
+    padding: 1rem;
     
     }
 
     .ff-visor-bg {
     max-width: 100%;
     height: 37vh;
+    padding: 1rem;
     }
 
     .cont-principal{
