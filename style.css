@@ -248,5 +248,9 @@ body{
     height: 50vh;
     }
 
+    .cont-principal{
+        display:block
+        
+    }
 
 }
