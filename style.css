@@ -120,8 +120,8 @@ body{
     animation-duration: 1s;
     animation-name: maximize;
     animation-iteration-count: var(1);
-    max-width: 30%;
-    height: 60vh;
+    max-width: 40%;
+    height: 50vh;
     margin: 0.5rem;
     overflow: auto;
     
@@ -152,7 +152,7 @@ body{
 @keyframes maximize {
     0%{height: 20vh;}
     
-    100%{height: 60vh;}
+    100%{height: 50vh;}
 }
 
 .rounded-tab-2{
@@ -165,7 +165,7 @@ body{
     animation-name: maximize;
     animation-iteration-count: var(1);
     max-width: 70%;
-    height: 60vh;
+    height: 50vh;
     margin: 0.5rem;
     display: grid;
     padding: 0.5rem;
@@ -227,7 +227,7 @@ body{
 
     .rounded-tab-1{
     max-width: 65%;
-    height: 60vh;
+    height: 50vh;
     margin: 0.5rem;
     overflow: auto;
     }
