@@ -77,7 +77,6 @@ body{
     height: auto;
     left: -0.5rem;
     top: -0.5rem;
-    max-width: 100%;
     animation-duration: 5s;
     animation-name: logoblur;
     animation-iteration-count: infinite;
@@ -86,6 +85,8 @@ body{
 }
 
 .ff-visor-bg {
+    max-width: 100%;
+    height: 18vh;
     position: relative;
     z-index: 1;
     animation-duration: 50s;
