@@ -125,7 +125,7 @@ body{
 }
 
 /* width */
-::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     width: 10px;
   }
   
@@ -226,4 +226,11 @@ body{
     overflow: auto;
     }
 
+    .button-index {
+        animation-duration: 1s;
+        animation-name: slidein;
+        animation-iteration-count:var(0);
+        
+                 
+    }
 }
