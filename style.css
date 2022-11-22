@@ -305,14 +305,14 @@ body{
     } 
 
     .button-index-2{
-        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 10vh;
+        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 12vh;
         animation-duration: 0s;
         animation-iteration-count:var(0);
         
     }
 
     .button-index-3{
-        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 10vh;
+        margin-top: auto; margin-bottom: auto; max-width: 100%; height: 12vh;
         animation-duration: 0s;
         animation-iteration-count:var(0);
         
@@ -344,14 +344,14 @@ body{
    }
 
    .child-cont-2{
-    margin-left:-0.5rem;
-    margin-right: -0.5rem;
+    margin-left:-1rem;
+    margin-right: -1rem;
     display: grid;
           
     }
     .child-cont-3{
-        margin-left:-0.5rem;
-        margin-right: -0.5rem;
+        margin-left:-1rem;
+        margin-right: -1rem;
         display: grid;
           
     }
