@@ -227,11 +227,16 @@ body{
     overflow: auto;
     }
 
+    .child-cont-1{
+        
+        padding: 0.5rem;
+        display: grid;
+              
+   }
+
     .button-index {
         animation-duration: 0s;
-        animation-name: slidein;
-        animation-iteration-count:var(0);
-        
+        animation-iteration-count:var(0);        
                  
     }
 }
