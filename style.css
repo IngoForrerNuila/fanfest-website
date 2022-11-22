@@ -72,7 +72,7 @@ body{
 
 .ff-visor{
     max-width: 100%;
-    height: 18vh;
+    height: 48vh;
     position: absolute;
     height: auto;
     left: -0.5rem;
@@ -86,7 +86,7 @@ body{
 
 .ff-visor-bg {
     max-width: 100%;
-    height: 18vh;
+    height: 48vh;
     position: relative;
     z-index: 1;
     animation-duration: 50s;
@@ -208,6 +208,8 @@ body{
 @media screen and (max-width: 960px) {
     .button-index{
         margin-top: auto; margin-bottom: auto; max-width: 100%; height: 15vh;
+        animation-duration: 0s;
+        animation-iteration-count:var(0); 
     } 
 
     .welcome-text{
@@ -235,9 +237,16 @@ body{
               
    }
 
-    .button-index {
-        animation-duration: 0s;
-        animation-iteration-count:var(0);        
-                 
+   .ff-visor{
+    max-width: 100%;
+    height: 50vh;
+    
     }
+
+    .ff-visor-bg {
+    max-width: 100%;
+    height: 50vh;
+    }
+
+
 }
