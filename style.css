@@ -576,13 +576,13 @@ body{
     .papa-hija-wraper{
         max-width: 65%;
         height: 65vh;
-        margin: 0.5rem;
+        padding-left: 0.9rem;
         overflow: auto;
     }
 
     .div-fotos-papa{
-        width: 30vw;
-        height: 17vh;
+        width: 27vw;
+        height: 14vh;
         margin: 0.8px;
 
     }
