@@ -279,6 +279,136 @@ body{
     height: 10vh;
              
 }
+/*Estructura Div para seccion Fotos */
+.papa-hija-wraper{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(123, 167, 227);
+    animation-duration: 1s;
+    animation-name: OpaCity;
+    animation-iteration-count: var(1);
+    max-width: 40%;
+    height: 50vh;
+    margin: 0.5rem;
+    overflow: auto;
+    padding-left: 0.3rem;
+    
+    
+}
+
+.div-fotos-papa {
+    width: 10vw;
+    height: 20vh;
+    margin: 20px;
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    position: relative;
+    /*float: left;*/
+    display: inline-block;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.div-fotos-hija {
+    height: 100%;
+    width: 100%;
+    background-size: cover;/*poner contain*/
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.hija-text {
+    display: none;
+    font-size: 15px;
+    color: #ffffff !important;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.div-fotos-papa:hover .div-fotos-hija, .div-fotos-papa:focus .div-fotos-hija {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.div-fotos-papa:hover .div-fotos-hija:before, .div-fotos-papa:focus .div-fotos-hija:before {
+    display: block;
+}
+
+.div-fotos-papa:hover .hija-text, .div-fotos-papa:focus .hija-text {
+    display: block;
+}
+
+.div-fotos-hija:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*background-color: rgba(52,73,94,0.75);*/
+}
+
+/* AREA OF IMAGES CALLED THROUGH CSS */
+
+.foto-1 {
+    background-image: url(img/foto-1.jpg);  
+}
+
+.foto-2 {
+    background-image: url(img/foto-2.jpg);
+}
+
+.foto-3 {
+    background-image: url(img/foto-3.jpg);
+}
+
+.foto-4 {
+    background-image: url(img/foto-4.jpg);  
+}
+
+.foto-5 {
+    background-image: url(img/foto-5.jpg);
+}
+
+.foto-6 {
+    background-image: url(img/foto-6.jpg);
+}
+
+.foto-7 {
+    background-image: url(img/foto-7.jpg);  
+}
+
+.foto-8 {
+    background-image: url(img/foto-8.jpg);  
+}
+
+.foto-9 {
+    background-image: url(img/foto-9.jpg);  
+}
 
 @keyframes slidein-2 {
     0% { filter: opacity(0%);}
@@ -441,6 +571,20 @@ body{
         0% {filter: opacity(0%);}
         
         100%{filter: opacity(100%);}
+    }
+
+    .papa-hija-wraper{
+        max-width: 65%;
+        height: 65vh;
+        margin: 0.5rem;
+        overflow: auto;
+    }
+
+    .div-fotos-papa{
+        width: 30vw;
+        height: 17vh;
+        margin: 0.8px;
+
     }
 
 }
