@@ -66,6 +66,10 @@ body{
     margin-bottom: 1rem;
 }
 
+.button-index-3:hover {
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+}
+
 .button-index-2 {
     width: 9vw;
     height: 55%;
@@ -459,7 +463,7 @@ body{
         margin-bottom: auto; 
         margin-left: 0.5rem; 
         margin-right: 0.5rem; 
-        width: 20vw;
+        width: 25vw;
         height: 100%;
         animation-duration: 2s;
         animation-iteration-count:1;
@@ -469,7 +473,7 @@ body{
     .button-index-2{
         margin-top: auto; 
         margin-bottom: auto; 
-        width: 20vw;
+        width: 22vw;
         height: 100%;
         animation-duration: 2s;
         animation-iteration-count:1;
@@ -479,8 +483,9 @@ body{
     .button-index-3{
         margin-top: auto; 
         margin-bottom: auto;
-        width: 20vw;
+        width: 22vw;
         height: 100%;
+        animation-name: OpaCity;
         animation-duration: 2s;
         animation-iteration-count:1;
         
