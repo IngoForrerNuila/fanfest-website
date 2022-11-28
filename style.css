@@ -423,6 +423,34 @@ body{
     background-image: url(img/foto-20.jpg);  
 }
 
+.video-franco-1 {
+    background-image: url(img/video-franco-1.png);  
+}
+
+.video-fan-fest-1 {
+    background-image: url(img/video-fan-fest-1.png);  
+}
+
+.video-fan-fest-2 {
+    background-image: url(img/video-fan-fest-2.png);  
+}
+
+.video-fan-fest-3 {
+    background-image: url(img/video-fan-fest-3.png);  
+}
+
+.video-fan-fest-4 {
+    background-image: url(img/video-fan-fest-4.png);  
+}
+
+.video-fan-fest-5 {
+    background-image: url(img/video-fan-fest-5.png);  
+}
+
+.video-fan-fest-6 {
+    background-image: url(img/video-fan-fest-6.png);  
+}
+
 @keyframes slidein-2 {
     0% { filter: opacity(0%);}
     
