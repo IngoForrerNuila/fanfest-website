@@ -439,6 +439,10 @@ body{
     background-image: url(img/video-franco-4.png);  
 }
 
+.video-franco-5 {
+    background-image: url(img/video-franco-5.png);  
+}
+
 .video-fan-fest-1 {
     background-image: url(img/video-fan-fest-1.png);  
 }
@@ -461,6 +465,10 @@ body{
 
 .video-fan-fest-6 {
     background-image: url(img/video-fan-fest-6.png);  
+}
+
+.video-fan-fest-7 {
+    background-image: url(img/video-fan-fest-7.png);  
 }
 
 @keyframes slidein-2 {
