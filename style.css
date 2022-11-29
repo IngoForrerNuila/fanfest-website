@@ -343,6 +343,96 @@ body{
 
 /* AREA OF IMAGES CALLED THROUGH CSS */
 
+.afiche-1 {
+    background-image: url(img/afiche-1.jpg);  
+}
+
+.afiche-2 {
+    background-image: url(img/afiche-2.jpg);  
+}
+
+.afiche-3 {
+    background-image: url(img/afiche-3.jpg);  
+}
+
+.afiche-4 {
+    background-image: url(img/afiche-4.jpg);  
+}
+
+.afiche-5 {
+    background-image: url(img/afiche-5.jpg);  
+}
+
+.afiche-6 {
+    background-image: url(img/afiche-6.jpg);  
+}
+
+.afiche-7 {
+    background-image: url(img/afiche-7.jpg);  
+}
+
+.afiche-8 {
+    background-image: url(img/afiche-8.jpg);  
+}
+
+.afiche-9 {
+    background-image: url(img/afiche-9.jpg);  
+}
+
+.afiche-10 {
+    background-image: url(img/afiche-10.jpg);  
+}
+
+.afiche-11 {
+    background-image: url(img/afiche-11.jpg);  
+}
+
+.afiche-12 {
+    background-image: url(img/afiche-12.jpg);  
+}
+
+.afiche-13 {
+    background-image: url(img/afiche-13.jpg);  
+}
+
+.afiche-14 {
+    background-image: url(img/afiche-14.jpg);  
+}
+
+.afiche-15 {
+    background-image: url(img/afiche-15.jpg);  
+}
+
+.afiche-16 {
+    background-image: url(img/afiche-16.jpg);  
+}
+
+.afiche-17 {
+    background-image: url(img/afiche-17.jpg);  
+}
+
+.afiche-18 {
+    background-image: url(img/afiche-18.jpg);  
+}
+
+.afiche-19 {
+    background-image: url(img/afiche-19.jpg);  
+}
+
+.afiche-20 {
+    background-image: url(img/afiche-20.jpg);  
+}
+
+.afiche-21 {
+    background-image: url(img/afiche-21.jpg);  
+}
+
+.afiche-22 {
+    background-image: url(img/afiche-22.jpg);  
+}
+
+
+
 .foto-1 {
     background-image: url(img/foto-1.jpg);  
 }
@@ -421,6 +511,158 @@ body{
 
 .foto-20 {
     background-image: url(img/foto-20.jpg);  
+}
+
+.foto-21 {
+    background-image: url(img/foto-21.jpg);  
+}
+
+.foto-22 {
+    background-image: url(img/foto-22.jpg);  
+}
+
+.foto-23 {
+    background-image: url(img/foto-23.jpg);  
+}
+
+.foto-24 {
+    background-image: url(img/foto-24.jpg);  
+}
+
+.foto-25 {
+    background-image: url(img/foto-25.jpg);  
+}
+
+.foto-26 {
+    background-image: url(img/foto-26.jpg);  
+}
+
+.foto-27 {
+    background-image: url(img/foto-27.jpg);  
+}
+
+.foto-28 {
+    background-image: url(img/foto-28.jpg);  
+}
+
+.foto-29 {
+    background-image: url(img/foto-29.jpg);  
+}
+
+.foto-30 {
+    background-image: url(img/foto-30.jpg);  
+}
+
+.foto-31 {
+    background-image: url(img/foto-31.jpg);  
+}
+
+.foto-32 {
+    background-image: url(img/foto-32.jpg);  
+}
+
+.foto-33 {
+    background-image: url(img/foto-33.jpg);  
+}
+
+.foto-34 {
+    background-image: url(img/foto-34.jpg);  
+}
+
+.foto-35 {
+    background-image: url(img/foto-35.jpg);  
+}
+
+.foto-36 {
+    background-image: url(img/foto-36.jpg);  
+}
+
+.foto-37 {
+    background-image: url(img/foto-37.jpg);  
+}
+
+.foto-38 {
+    background-image: url(img/foto-38.jpg);  
+}
+
+.foto-39 {
+    background-image: url(img/foto-39.jpg);  
+}
+
+.foto-40 {
+    background-image: url(img/foto-40.jpg);  
+}
+
+.foto-41 {
+    background-image: url(img/foto-41.jpg);  
+}
+
+.foto-42 {
+    background-image: url(img/foto-42.jpg);  
+}
+
+.foto-43 {
+    background-image: url(img/foto-43.jpg);  
+}
+
+.foto-44 {
+    background-image: url(img/foto-44.jpg);  
+}
+
+.foto-45 {
+    background-image: url(img/foto-45.jpg);  
+}
+
+.foto-46 {
+    background-image: url(img/foto-46.jpg);  
+}
+
+.foto-47 {
+    background-image: url(img/foto-47.jpg);  
+}
+
+.foto-48 {
+    background-image: url(img/foto-48.jpg);  
+}
+
+.foto-49 {
+    background-image: url(img/foto-49.jpg);  
+}
+
+.foto-50 {
+    background-image: url(img/foto-50.jpg);  
+}
+
+.foto-51 {
+    background-image: url(img/foto-51.jpg);  
+}
+
+.foto-52 {
+    background-image: url(img/foto-52.jpg);  
+}
+
+.foto-53 {
+    background-image: url(img/foto-53.jpg);  
+}
+
+.foto-54 {
+    background-image: url(img/foto-54.jpg);  
+}
+
+.foto-55 {
+    background-image: url(img/foto-55.jpg);  
+}
+
+.foto-56 {
+    background-image: url(img/foto-56.jpg);  
+}
+
+.foto-57 {
+    background-image: url(img/foto-57.jpg);  
+}
+
+.foto-58 {
+    background-image: url(img/foto-58.jpg);  
 }
 
 .video-franco-1 {
