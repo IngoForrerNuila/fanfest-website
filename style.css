@@ -26,15 +26,40 @@ body {
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 100% 100%; /* Ajusta el tamaño según tus necesidades iniciales */
-    animation: pulseBackground 2s; /* Puedes ajustar la duración según tus necesidades */
+    animation: pulseBackground 3s; /* Puedes ajustar la duración según tus necesidades */
+    animation: changeBackground 30s infinite; /* Cambiar cada 30 segundos */
 }
 
 @keyframes pulseBackground {
     0% {
-        background-size: 130% 130%;
+        background-size: 150% 150%;
     }
     100% {
         background-size: 100% 100%;
+    }
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: url('img/new-web-bg-1.png');
+    }
+    33.33% {
+        background-image: url('img/new-web-bg-2.png');
+    }
+    66.66% {
+        background-image: url('img/espacio-vacio.png');
+    }
+    100% {
+        background-image: url('img/espacio-vacio.png'); /* Vuelve al primer fondo */
+    }
+    66.66% {
+        background-image: url('img/espacio-vacio.png');
+    }
+    33.33% {
+        background-image: url('img/new-web-bg-2.png');
+    }
+    0% {
+        background-image: url('img/new-web-bg-1.png');
     }
 }
 
@@ -106,7 +131,7 @@ body {
     transition: color 0.3s, text-decoration 0.3s;
     position: relative;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(53, 53, 53);
 }
 
@@ -116,7 +141,7 @@ body {
     transition: color 0.3s, text-decoration 0.3s;
     position: relative;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(53, 53, 53);
 }
 
@@ -126,7 +151,7 @@ body {
     transition: color 0.3s, text-decoration 0.3s;
     position: relative;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(53, 53, 53);
 }
 
@@ -144,6 +169,8 @@ body {
     color: #dfc842;
     text-decoration: none;
 }
+
+
 
 @media screen and (max-width: 600px)/*960*/ {
     .area1 img.ff-visor-background {
