@@ -145,4 +145,36 @@ body {
     text-decoration: none;
 }
 
+@media screen and (max-width: 600px)/*960*/ {
+    .area1 img.ff-visor-background {
+        max-width: 60vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    }
+    
+    .area1 img.ff-visor-logo {
+        max-width: 45vw; /* Máximo 55px para evitar que sea demasiado grande */
+    }
 
+    @keyframes rotate {
+        0% {transform: rotate(0deg) scale(1.2); filter: blur(10px); opacity: (0%);}
+        50% {transform: rotate(360deg) scale(1.8); filter: blur(0px); opacity:(100%);}
+        100% {transform: rotate(0deg) scale(1.2); filter: blur(10px); opacity: (0%);}
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .area1 img.ff-visor-background {
+        max-width: 50vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    }
+    
+    .area1 img.ff-visor-logo {
+        max-width: 35vw; /* Máximo 55px para evitar que sea demasiado grande */
+    }
+
+    @keyframes rotate {
+        0% {transform: rotate(0deg) scale(1.2); filter: blur(10px); opacity: (0%);}
+        50% {transform: rotate(360deg) scale(1.8); filter: blur(0px); opacity:(100%);}
+        100% {transform: rotate(0deg) scale(1.2); filter: blur(10px); opacity: (0%);}
+    }
+
+}
