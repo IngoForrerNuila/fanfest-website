@@ -26,41 +26,43 @@ body {
     background-position: center; 
     background-repeat: no-repeat;
     background-size: 100% 100%; /* Ajusta el tamaño según tus necesidades iniciales */
-    animation: pulseBackground 3s; /* Puedes ajustar la duración según tus necesidades */
+    /*animation: pulseBackground 3s; /* Puedes ajustar la duración según tus necesidades */
     animation: changeBackground 30s infinite; /* Cambiar cada 30 segundos */
 }
 
-@keyframes pulseBackground {
+/*@keyframes pulseBackground {
     0% {
         background-size: 150% 150%;
     }
     100% {
         background-size: 100% 100%;
     }
-}
+}*/
 
 @keyframes changeBackground {
     0% {
+        background-image: url('img/espacio-vacio.png');
+    }
+    15% {
+        background-image: url('img/new-web-bg-5.png');
+    }
+    30% {
+        background-image: url('img/espacio-vacio.png');
+    }
+    45% {
         background-image: url('img/new-web-bg-1.png');
     }
-    33.33% {
-        background-image: url('img/new-web-bg-2.png');
+    60% {
+        background-image: url('img/espacio-vacio.png'); 
     }
-    66.66% {
-        background-image: url('img/espacio-vacio.png');
+    75% {
+        background-image: url('img/new-web-bg-2.png'); 
     }
     100% {
-        background-image: url('img/espacio-vacio.png'); /* Vuelve al primer fondo */
+        background-image: url('img/espacio-vacio.png');/* Vuelve al primer fondo */
     }
-    66.66% {
-        background-image: url('img/espacio-vacio.png');
-    }
-    33.33% {
-        background-image: url('img/new-web-bg-2.png');
-    }
-    0% {
-        background-image: url('img/new-web-bg-1.png');
-    }
+    
+   
 }
 
 .area1 img {
@@ -173,6 +175,12 @@ body {
 
 
 @media screen and (max-width: 600px)/*960*/ {
+    .area1 {
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
     .area1 img.ff-visor-background {
         max-width: 60vw; /* Máximo 30vw para evitar que sea demasiado grande */
     }
