@@ -15,7 +15,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    Background-color: transparent;
+    background-image: url('img/espacio-vacio.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ajusta el tamaño según tus necesidades iniciales */
+    animation: pulseBackground 2s; /* Puedes ajustar la duración según tus necesidades */
+}
+
+@keyframes pulseBackground {
+    0% {
+        background-size: 130% 130%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
 }
 
 .area1 img {
@@ -23,24 +38,17 @@ body {
     
 }
 
-.area1 img:first-child {
+.area1 img.ff-visor-background {
     z-index: 1;
     width: 50%; /* 50% del ancho del contenedor .area1 */
     max-width: 30vw; /* Máximo 30vw para evitar que sea demasiado grande */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
 }
 
-.area1 img:first-child {
-    z-index: 1;
-    width: 50%; /* 50% del ancho del contenedor .area1 */
-    max-width: 30vw; /* Máximo 30vw para evitar que sea demasiado grande */
-    height: auto; /* Ajusta la altura automáticamente según el ancho */
-}
-
-.area1 img:last-child {
+.area1 img.ff-visor-logo {
     z-index: 2;
     width: 50%; /* 50% del ancho del contenedor .area1 */
-    max-width: 15vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    max-width: 15vw; /* Máximo 55px para evitar que sea demasiado grande */
     height: auto; /* Ajusta la altura automáticamente según el ancho */
 }
 
@@ -56,9 +64,9 @@ body {
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg) scale(0.4); filter: blur(10px); opacity: (0%);}
+    0% {transform: rotate(0deg) scale(0.6); filter: blur(10px); opacity: (0%);}
     50% {transform: rotate(360deg) scale(1.2); filter: blur(0px); opacity:(100%);}
-    100% {transform: rotate(0deg) scale(0.4); filter: blur(10px); opacity: (0%);}
+    100% {transform: rotate(0deg) scale(0.6); filter: blur(10px); opacity: (0%);}
 }
 
 @keyframes pulse {
@@ -73,42 +81,10 @@ body {
     }
 }
 
-.area2 {
-    height: 100vh; /* 100% del viewport height */
-    width: 100vw; /* 100% del viewport width */
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
+.area1-menu{
+    z-index: 3;
+    padding-top: 60vh;
+    color: white;
 }
 
-.area3 {
-    height: 100vh; /* 100% del viewport height */
-    width: 100vw; /* 100% del viewport width */
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-}
 
-.area4 {
-    height: 100vh; /* 100% del viewport height */
-    width: 100vw; /* 100% del viewport width */
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-}
-
-.area5 {
-    height: 100vh; /* 100% del viewport height */
-    width: 100vw; /* 100% del viewport width */
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-}
