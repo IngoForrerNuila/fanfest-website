@@ -2,6 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: 'Lapsus-pro';
+    src: url('fonts/LapsusPro-Bold.otf') format('opentype');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -83,8 +88,27 @@ body {
 
 .area1-menu{
     z-index: 3;
-    padding-top: 60vh;
+    word-spacing: 3px;
+    font-size: 25px;
+    font-family: 'Lapsus-pro' ;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 60vh;
     color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.area1-menu-item{
+    color: #459cf3;
+    font-size: 25px;
+    transition: color 0.3s, text-decoration 0.3s;
+    position: relative;
+    text-decoration: none;
+}
+
+.area1-menu-item:hover {
+    color: #dfc842;
+    text-decoration: none;
 }
 
 
