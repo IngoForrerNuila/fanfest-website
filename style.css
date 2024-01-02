@@ -1,932 +1,107 @@
-body{
-    background-image: url(img/blue-stars-wall.png);
-    background-size: cover;
-    background-attachment: fixed;
-    
+html {
+    scroll-behavior: smooth;
 }
 
-.separador{
-    max-width: 100%;
-    height: 23vh;
-       
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-.welcome-text{
-    font-weight: bolder;
-    color: white;
-    padding: 3rem;
-    text-align: center;
-}
-
-.welcome-text-2{
-    font-weight: bolder;
-    color: white;
-    padding: 3rem;
-    text-align: center;
-}
-
-.cont-principal{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    background-color: black;
-    align-self: center;
+.area1 {
+    height: 100vh; /* 100% del viewport height */
+    width: 100vw; /* 100% del viewport width */
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.area1 img {
+    position: absolute; 
     
 }
 
-.child-cont-1{
-     padding-bottom: 1rem;
-     padding-top: 1rem;
-     padding: 2rem;
-     display: grid;
-           
+.area1 img:first-child {
+    z-index: 1;
+    width: 50%; /* 50% del ancho del contenedor .area1 */
+    max-width: 30vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
 }
 
-.child-cont-2{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding: 2rem;
-    display: grid;
-          
-}
-
-.child-cont-3{
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    padding: 2rem;
-    display: grid;        
-}
-
-.button-index-3 {
-    width: 9vw;
-    height: 50%;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-}
-
-.button-index-3:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-}
-
-.button-index-2 {
-    width: 9vw;
-    height: 50%;
-    margin-top: 4.2rem;
-    margin-bottom: 1rem;
-    animation-duration: 1s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-             
-}
-
-.button-index-2:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-}
-
-.button-index {
-    width: 9vw;
-    height: 50%;
-    margin-top: 4.2rem;
-    margin-bottom: 1rem;
-    animation-duration: 1s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;          
-}
-
-.button-index:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-}
-
-@keyframes slidein {
-    0% {width: 9vw;
-        height: 55%;
-    }
-    
-    100%{width: 9.5vw; height: 57%; padding: 0%; padding-top: 0%; padding-bottom: 0%; filter:blur(0px) sepia(0%);}
-}
-
-.cont-visor{
-    position: relative;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-}
-
-.ingo-logo {
-    max-width: 100%;
-    height: 18vh;
-    padding: 1rem;    
-}
-
-.ingo-logo-mobile {
-    max-width: 100%;
-    height: 15vh;
-    padding: 1rem;    
+.area1 img:last-child {
+    z-index: 2;
+    width: 50%; /* 50% del ancho del contenedor .area1 */
+    max-width: 15vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
 }
 
 .ff-visor{
-    max-width: 100%;
-    height: 48vh;
-    position: absolute;
-    height: auto;
-    left: -0.5rem;
-    top: -0.5rem;
-    animation-duration: 5s;
-    animation-name: logoblur;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    z-index: 2;
+    animation: pulse 2s infinite;
 }
 
 .ff-visor-bg {
-    max-width: 100%;
-    height: 48vh;
-    position: relative;
-    z-index: 1;
     animation-duration: 50s;
     animation-name: rotate;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg); filter: blur(0px);}
-    50% {transform: rotate(360deg); filter: blur(10px);}
-    100% {transform: rotate(0deg); filter: blur(0px);}
+    0% {transform: rotate(0deg) scale(0.5); filter: blur(10px); opacity: (0%);}
+    50% {transform: rotate(360deg) scale(1); filter: blur(0px); opacity:(100%);}
+    100% {transform: rotate(0deg) scale(0.5); filter: blur(10px); opacity: (0%);}
 }
 
-@keyframes logoblur {
-    0% {filter: opacity(40%) blur(3px);}
-    30% {filter: opacity(70%) blur(2px);}
-    50% {filter: opacity(100%) blur(1px);}
-    60% {filter: opacity(100%) blur(1px);}
-    80% {filter: opacity(70%) blur(2px);}
-    100% {filter: opacity(60%) blur(3px);}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
-.rounded-tab-1 {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgb(123, 167, 227);
-    animation-duration: 1s;
-    animation-name: OpaCity;
-    animation-iteration-count: var(1);
-    max-width: 40%;
-    height: 50vh;
-    margin: 0.5rem;
-    overflow: auto;
-    
-}
-
-.rounded-tab-2{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgb(123, 167, 227);
-    animation-duration: 1s;
-    animation-name: OpaCity;
-    animation-iteration-count: var(1);
-    max-width: 70%;
-    height: 50vh;
-    margin: 0.5rem;
-    display: grid;
-    padding: 0.5rem;
-    padding-top: 1.5rem;
-    
-}
-
-@keyframes OpaCity {
-    0%{filter: opacity(0%);}
-    
-    100%{filter: opacity(100%);}
-}
-
-/* width */
-  ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: rgb(25, 100, 212); 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-
-.about-text{
-    font-family:'Arial Narrow';
-    font-weight: bold;
-    font-size: 110%;
-    padding: 0.5rem;
-    color: rgb(255, 255, 255);
-    
-}
-
-.button-about {
-    /*margin-top: 5rem;*/
-    /*margin-bottom: 1rem;*/
-    animation-duration: 4s;
-    animation-name: slidein-2;
-    animation-iteration-count:var(1);
-    max-width: 100%;
-    height: 10vh;
-             
-}
-/*Estructura Div para seccion Fotos */
-.papa-hija-wraper{
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgb(123, 167, 227);
-    animation-duration: 1s;
-    animation-name: OpaCity;
-    animation-iteration-count: var(1);
-    max-width: 40%;
-    height: 50vh;
-    margin: 0.5rem;
-    overflow: auto;
-    padding-left: 0.3rem;
-    
-    
-}
-
-.div-fotos-papa {
-    width: 10vw;
-    height: 20vh;
-    margin: 20px;
-    /*border: 1px solid blue;*/
-    overflow: hidden;
+.area2 {
+    height: 100vh; /* 100% del viewport height */
+    width: 100vw; /* 100% del viewport width */
+    display: flex;
     position: relative;
-    /*float: left;*/
-    display: inline-block;
-    cursor: pointer;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    
-}
-
-.div-fotos-hija {
-    height: 100%;
-    width: 100%;
-    background-size: cover;/*poner contain*/
-    background-repeat: no-repeat;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-.hija-text {
-    display: none;
-    font-size: 15px;
-    color: #ffffff !important;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 5px #000000, 0 0 5px #000000, 0 0 5px #000000, 0 0 10px #000000, 0 0 20px #000000;
-    font-family: sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    margin: auto;
-    position: absolute;
-    top: 3vh;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.div-fotos-papa:hover .div-fotos-hija, .div-fotos-papa:focus .div-fotos-hija {
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
-.div-fotos-papa:hover .div-fotos-hija:before, .div-fotos-papa:focus .div-fotos-hija:before {
-    display: block;
-}
-
-.div-fotos-papa:hover .hija-text, .div-fotos-papa:focus .hija-text {
-    display: block;
-}
-
-.div-fotos-hija:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    /*background-color: rgba(52,73,94,0.75);*/
-}
-
-
-/* AREA OF IMAGES CALLED THROUGH CSS */
-
-.afiche-1 {
-    background-image: url(img/afiche-1.jpg);  
-}
-
-.afiche-2 {
-    background-image: url(img/afiche-2.jpg);  
-}
-
-.afiche-3 {
-    background-image: url(img/afiche-3.jpg);  
-}
-
-.afiche-4 {
-    background-image: url(img/afiche-4.jpg);  
-}
-
-.afiche-5 {
-    background-image: url(img/afiche-5.jpg);  
-}
-
-.afiche-6 {
-    background-image: url(img/afiche-6.jpg);  
-}
-
-.afiche-7 {
-    background-image: url(img/afiche-7.jpg);  
-}
-
-.afiche-8 {
-    background-image: url(img/afiche-8.jpg);  
-}
-
-.afiche-9 {
-    background-image: url(img/afiche-9.jpg);  
-}
-
-.afiche-10 {
-    background-image: url(img/afiche-10.jpg);  
-}
-
-.afiche-11 {
-    background-image: url(img/afiche-11.jpg);  
-}
-
-.afiche-12 {
-    background-image: url(img/afiche-12.jpg);  
-}
-
-.afiche-13 {
-    background-image: url(img/afiche-13.jpg);  
-}
-
-.afiche-14 {
-    background-image: url(img/afiche-14.jpg);  
-}
-
-.afiche-15 {
-    background-image: url(img/afiche-15.jpg);  
-}
-
-.afiche-16 {
-    background-image: url(img/afiche-16.jpg);  
-}
-
-.afiche-17 {
-    background-image: url(img/afiche-17.jpg);  
-}
-
-.afiche-18 {
-    background-image: url(img/afiche-18.jpg);  
-}
-
-.afiche-19 {
-    background-image: url(img/afiche-19.jpg);  
-}
-
-.afiche-20 {
-    background-image: url(img/afiche-20.jpg);  
-}
-
-.afiche-21 {
-    background-image: url(img/afiche-21.jpg);  
-}
-
-.afiche-22 {
-    background-image: url(img/afiche-22.jpg);  
-}
-
-.logo-1 {
-    background-image: url(img/logo-1.jpg);  
-}
-
-.logo-2 {
-    background-image: url(img/logo-2.jpg);  
-}
-
-.logo-3 {
-    background-image: url(img/logo-3.jpg);  
-}
-
-.logo-4 {
-    background-image: url(img/logo-4.jpg);  
-}
-
-.logo-5 {
-    background-image: url(img/logo-5.jpg);  
-}
-
-.logo-6 {
-    background-image: url(img/logo-6.jpg);  
-}
-
-.logo-7 {
-    background-image: url(img/logo-7.jpg);  
-}
-
-.logo-8 {
-    background-image: url(img/logo-8.jpg);  
-}
-
-.logo-9 {
-    background-image: url(img/logo-9.jpg);  
-}
-
-.foto-1 {
-    background-image: url(img/foto-1.jpg);  
-}
-
-.foto-2 {
-    background-image: url(img/foto-2.jpg);
-}
-
-.foto-3 {
-    background-image: url(img/foto-3.jpg);
-}
-
-.foto-4 {
-    background-image: url(img/foto-4.jpg);  
-}
-
-.foto-5 {
-    background-image: url(img/foto-5.jpg);
-}
-
-.foto-6 {
-    background-image: url(img/foto-6.jpg);
-}
-
-.foto-7 {
-    background-image: url(img/foto-7.jpg);  
-}
-
-.foto-8 {
-    background-image: url(img/foto-8.jpg);  
-}
-
-.foto-9 {
-    background-image: url(img/foto-9.jpg);  
-}
-
-.foto-10 {
-    background-image: url(img/foto-10.jpg);  
-}
-
-.foto-11 {
-    background-image: url(img/foto-11.jpg);  
-}
-
-.foto-12 {
-    background-image: url(img/foto-12.jpg);  
-}
-
-.foto-13 {
-    background-image: url(img/foto-13.jpg);  
-}
-
-.foto-14 {
-    background-image: url(img/foto-14.jpg);  
-}
-
-.foto-15 {
-    background-image: url(img/foto-15.jpg);  
-}
-
-.foto-16 {
-    background-image: url(img/foto-16.jpg);  
-}
-
-.foto-17 {
-    background-image: url(img/foto-17.jpg);  
-}
-
-.foto-18 {
-    background-image: url(img/foto-18.jpg);  
-}
-
-.foto-19 {
-    background-image: url(img/foto-19.jpg);  
-}
-
-.foto-20 {
-    background-image: url(img/foto-20.jpg);  
-}
-
-.foto-21 {
-    background-image: url(img/foto-21.jpg);  
-}
-
-.foto-22 {
-    background-image: url(img/foto-22.jpg);  
-}
-
-.foto-23 {
-    background-image: url(img/foto-23.jpg);  
-}
-
-.foto-24 {
-    background-image: url(img/foto-24.jpg);  
-}
-
-.foto-25 {
-    background-image: url(img/foto-25.jpg);  
-}
-
-.foto-26 {
-    background-image: url(img/foto-26.jpg);  
-}
-
-.foto-27 {
-    background-image: url(img/foto-27.jpg);  
-}
-
-.foto-28 {
-    background-image: url(img/foto-28.jpg);  
-}
-
-.foto-29 {
-    background-image: url(img/foto-29.jpg);  
-}
-
-.foto-30 {
-    background-image: url(img/foto-30.jpg);  
-}
-
-.foto-31 {
-    background-image: url(img/foto-31.jpg);  
-}
-
-.foto-32 {
-    background-image: url(img/foto-32.jpg);  
-}
-
-.foto-33 {
-    background-image: url(img/foto-33.jpg);  
-}
-
-.foto-34 {
-    background-image: url(img/foto-34.jpg);  
-}
-
-.foto-35 {
-    background-image: url(img/foto-35.jpg);  
-}
-
-.foto-36 {
-    background-image: url(img/foto-36.jpg);  
-}
-
-.foto-37 {
-    background-image: url(img/foto-37.jpg);  
-}
-
-.foto-38 {
-    background-image: url(img/foto-38.jpg);  
-}
-
-.foto-39 {
-    background-image: url(img/foto-39.jpg);  
-}
-
-.foto-40 {
-    background-image: url(img/foto-40.jpg);  
-}
-
-.foto-41 {
-    background-image: url(img/foto-41.jpg);  
-}
-
-.foto-42 {
-    background-image: url(img/foto-42.jpg);  
-}
-
-.foto-43 {
-    background-image: url(img/foto-43.jpg);  
-}
-
-.foto-44 {
-    background-image: url(img/foto-44.jpg);  
-}
-
-.foto-45 {
-    background-image: url(img/foto-45.jpg);  
-}
-
-.foto-46 {
-    background-image: url(img/foto-46.jpg);  
-}
-
-.foto-47 {
-    background-image: url(img/foto-47.jpg);  
-}
-
-.foto-48 {
-    background-image: url(img/foto-48.jpg);  
-}
-
-.foto-49 {
-    background-image: url(img/foto-49.jpg);  
-}
-
-.foto-50 {
-    background-image: url(img/foto-50.jpg);  
-}
-
-.foto-51 {
-    background-image: url(img/foto-51.jpg);  
-}
-
-.foto-52 {
-    background-image: url(img/foto-52.jpg);  
-}
-
-.foto-53 {
-    background-image: url(img/foto-53.jpg);  
-}
-
-.foto-54 {
-    background-image: url(img/foto-54.jpg);  
-}
-
-.foto-55 {
-    background-image: url(img/foto-55.jpg);  
-}
-
-.foto-56 {
-    background-image: url(img/foto-56.jpg);  
-}
-
-.foto-57 {
-    background-image: url(img/foto-57.jpg);  
-}
-
-.foto-58 {
-    background-image: url(img/foto-58.jpg);  
-}
-
-.video-franco-1 {
-    background-image: url(img/video-franco-1.png);  
-}
-
-.video-franco-2 {
-    background-image: url(img/video-franco-2.png);  
-}
-
-.video-franco-3 {
-    background-image: url(img/video-franco-3.png);  
-}
-
-.video-franco-4 {
-    background-image: url(img/video-franco-4.png);  
-}
-
-.video-franco-5 {
-    background-image: url(img/video-franco-5.png);  
-}
-
-.video-fan-fest-1 {
-    background-image: url(img/video-fan-fest-1.png);  
-}
-
-.video-fan-fest-2 {
-    background-image: url(img/video-fan-fest-2.png);  
-}
-
-.video-fan-fest-3 {
-    background-image: url(img/video-fan-fest-3.png);  
-}
-
-.video-fan-fest-4 {
-    background-image: url(img/video-fan-fest-4.png);  
-}
-
-.video-fan-fest-5 {
-    background-image: url(img/video-fan-fest-5.png);  
-}
-
-.video-fan-fest-6 {
-    background-image: url(img/video-fan-fest-6.png);  
-}
-
-.video-fan-fest-7 {
-    background-image: url(img/video-fan-fest-7.png);  
-}
-
-@keyframes slidein-2 {
-    0% { filter: opacity(0%);}
-    
-    100%{  filter: opacity(100%);}
-}
-
-
-.button-about:hover {
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-}
-
-
-@media screen and (min-width: 960px) {
-    .button-index-3 {
-        display: none;
-                 
-    }
-
-    .child-cont-3{
-        display:none;
-              
-    }
-
-    .welcome-text-2{
-        display:none;
-        
-    }
-
-    .ingo-logo-mobile {
-        display:none;    
-    }
-
-}
-
-@media screen and (max-width: 960px) {
-    .button-index{
-        margin-top: auto; 
-        margin-bottom: auto; 
-        margin-left: 0.5rem; 
-        margin-right: 0.5rem; 
-        width: 25vw;
-        height: 100%;
-        animation-duration: 2s;
-        animation-iteration-count:1;
-        padding: 0.5rem;
-    } 
-
-    .button-index-2{
-        margin-top: auto; 
-        margin-bottom: auto; 
-        width: 22vw;
-        height: 100%;
-        animation-duration: 2s;
-        animation-iteration-count:1;
-        
-    }
-
-    .button-index-3{
-        margin-top: auto; 
-        margin-bottom: auto;
-        width: 22vw;
-        height: 100%;
-        animation-name: OpaCity;
-        animation-duration: 2s;
-        animation-iteration-count:1;
-        
-    } 
-
-    .welcome-text{
-        padding-top: 3rem; font-size: 128%;
-    }
-
-    .rounded-tab-1{
-    max-width: 65%;
-    height: 65vh;
-    margin: 0.5rem;
-    overflow: auto;
-    }
-
-    .rounded-tab-2{
-        max-width: 65%;
-        height: 65vh;
-        margin: 0.5rem;
-        overflow: auto;
-        }
-
-    .child-cont-1{
-        padding: 0.5rem;
-        display: grid;
-              
-   }
-
-   .child-cont-2{
-    margin-left:-1.5rem;
-    margin-right: -1.5rem;
-    display: grid;
-          
-    }
-    .child-cont-3{
-        margin-left:-1.5rem;
-        margin-right: -1.5rem;
-        display: grid;
-          
-    }
-
-   .ff-visor{
-    max-width: 100%;
-    height: 37vh;
-    margin-left:2.5rem;
-    margin-right:2.5rem;
-    
-    }
-
-    .ff-visor-bg {
-    max-width: 100%;
-    height: 37vh;
-    margin-left:2.5rem;
-    margin-right:2.5rem;
-    }
-
-    .cont-principal{
-        display:block
-        
-    }
-
-    .cont-visor{
-        position: relative;
-        display: block;
-    }
-
-    .ingo-logo {
-        display: none;   
-    }
-
-    .separador{
-        height: 10vh;
-           
-    }
-
-    .welcome-text{
-        padding-top: 1.5rem;
-        font-size: small;
-        
-    }
-
-    .welcome-text-2{
-        padding-top: 1.5rem;
-        font-size: small;
-        
-    }
-
-    .about-text{
-        font-size: 100%;
-        text-align: start;       
-    }
-
-    @keyframes maximize {
-        0%{height: 20vh;}
-        
-        100%{height: 65vh;}
-    }
-
-    @keyframes slidein {
-        0% {filter: opacity(0%);}
-        
-        100%{filter: opacity(100%);}
-    }
-
-    .papa-hija-wraper{
-        max-width: 65%;
-        height: 65vh;
-        padding-left: 0.7rem;
-        overflow: auto;
-    }
-
-    .div-fotos-papa{
-        width: 27vw;
-        height: 14vh;
-        margin: 0.8px;
-
-    }
-
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.area3 {
+    height: 100vh; /* 100% del viewport height */
+    width: 100vw; /* 100% del viewport width */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.area4 {
+    height: 100vh; /* 100% del viewport height */
+    width: 100vw; /* 100% del viewport width */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.area5 {
+    height: 100vh; /* 100% del viewport height */
+    width: 100vw; /* 100% del viewport width */
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
 }
