@@ -30,6 +30,13 @@ body {
     height: auto; /* Ajusta la altura automáticamente según el ancho */
 }
 
+.area1 img:first-child {
+    z-index: 1;
+    width: 50%; /* 50% del ancho del contenedor .area1 */
+    max-width: 30vw; /* Máximo 30vw para evitar que sea demasiado grande */
+    height: auto; /* Ajusta la altura automáticamente según el ancho */
+}
+
 .area1 img:last-child {
     z-index: 2;
     width: 50%; /* 50% del ancho del contenedor .area1 */
@@ -49,9 +56,9 @@ body {
 }
 
 @keyframes rotate {
-    0% {transform: rotate(0deg) scale(0.5); filter: blur(10px); opacity: (0%);}
-    50% {transform: rotate(360deg) scale(1); filter: blur(0px); opacity:(100%);}
-    100% {transform: rotate(0deg) scale(0.5); filter: blur(10px); opacity: (0%);}
+    0% {transform: rotate(0deg) scale(0.4); filter: blur(10px); opacity: (0%);}
+    50% {transform: rotate(360deg) scale(1.2); filter: blur(0px); opacity:(100%);}
+    100% {transform: rotate(0deg) scale(0.4); filter: blur(10px); opacity: (0%);}
 }
 
 @keyframes pulse {
