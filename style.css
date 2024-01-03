@@ -50,13 +50,13 @@ body {
         background-image: url('img/espacio-vacio.png');
     }
     45% {
-        background-image: url('img/new-web-bg-1.png');
+        background-image: url('img/new-web-bg-2.png');
     }
     60% {
         background-image: url('img/espacio-vacio.png'); 
     }
     75% {
-        background-image: url('img/new-web-bg-2.png'); 
+        background-image: url('img/new-web-bg-8.png'); 
     }
     100% {
         background-image: url('img/espacio-vacio.png');/* Vuelve al primer fondo */
@@ -198,6 +198,13 @@ body {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px){
+
+    .area1 {
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+
     .area1 img.ff-visor-background {
         max-width: 50vw; /* Máximo 30vw para evitar que sea demasiado grande */
     }
