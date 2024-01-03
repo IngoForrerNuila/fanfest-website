@@ -56,7 +56,7 @@ body {
         background-image: url('img/espacio-vacio.png'); 
     }
     75% {
-        background-image: url('img/new-web-bg-8.png'); 
+        background-image: url('img/new-web-bg-8.png');
     }
     100% {
         background-image: url('img/espacio-vacio.png');/* Vuelve al primer fondo */
