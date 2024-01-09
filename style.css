@@ -65,6 +65,10 @@ video {
     margin-right: 30%;
 }
 
+.left-logo-2{
+    display: none;
+}
+
 .menu-option {
     
     font-family: 'Lapsus-pro';
@@ -77,12 +81,12 @@ video {
 .animation-text {
     position: absolute;
     top: 50%;
-    left: 15%;
+    left: 3%;
     transform: translateX(-100%);
-    white-space: nowrap; /* Para que el texto no se divida en varias líneas */
+    white-space: normal; /* Para que el texto no se divida en varias líneas */
     font-size: 7em; /* Tamaño del texto */
     font-family: 'BebasNeue';
-    text-align: center;
+    text-align: left;
     color: white;
     animation: slideIn 2s forwards; /* 2 segundos de duración, detiene la animación al final */
 }
@@ -117,19 +121,23 @@ video {
 
     .menu {
         height: 5vh;
-        width: 80%;
+        width: 90%;
         max-width: 100vw;    
     }
 
     .menu-option {
-        font-family: 'Lapsus-pro';
-        font-size: 12px;
+        font-size: 18px;
         margin-left: 10px;
     }
 
     .left-logo{
-        height: 10%;
-        width: 150%;
+        display: none;
+    }
+
+    .left-logo-2{
+        display: block;
+        height: 30%;
+        width: 100%;
         margin-right: 0%;
     }
 
@@ -141,7 +149,38 @@ video {
         white-space: normal; /* Para que el texto no se divida en varias líneas */
         font-size: 3em; /* Tamaño del texto */
         text-align: left;
-        
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+
+    .menu {
+        height: 5vh;
+        width: 90%;
+        max-width: 100vw;    
+    }
+
+    .menu-option {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    .left-logo{
+        height: 10%;
+        width: 90%;
+        margin-right: 10%;
+    }
+
+    .animation-text {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateX(-100%);
+        white-space: normal; /* Para que el texto no se divida en varias líneas */
+        font-size: 5em; /* Tamaño del texto */
+        text-align: left;
     }
 
 
