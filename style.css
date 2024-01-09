@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lapsus-pro';
+    src: url('fonts/LapsusPro-Bold.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.area1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    object-fit: cover; /* Cubre todo el contenedor con el video */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    width: 80%;
+    max-width: 100vw;
+    border-radius: 20px;
+    background-color: rgba(52, 152, 219, 0.7); /* Usando un color azul con opacidad */
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute; /* Posiciona el menú sobre el video */
+    top: 30px; /* Ajusta según tus necesidades */
+}
+
+.menu-option {
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
