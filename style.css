@@ -28,6 +28,7 @@ body {
 }
 
 video {
+    filter: blur(2px);
     object-fit: cover; /* Cubre todo el contenedor con el video */
     width: 100%;
     height: 100%;
@@ -37,18 +38,24 @@ video {
 }
 
 .menu {
-    width: 80%;
+    height: 5vh;
+    width: 60%;
     max-width: 100vw;
-    border-radius: 20px;
-    background-color: rgba(52, 152, 219, 0.7); /* Usando un color azul con opacidad */
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.7); /* Usando un color azul con opacidad */
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 10px;
+    padding-right: 20px;
     position: absolute; /* Posiciona el menú sobre el video */
     top: 30px; /* Ajusta según tus necesidades */
 }
 
 .menu-option {
+    
+    font-family: 'Lapsus-pro';
+    font-size: 17px;
     margin-left: 20px;
     color: white;
     cursor: pointer;
