@@ -11,7 +11,9 @@ body {
 @font-face {
     font-family: 'Lapsus-pro';
     src: url('fonts/LapsusPro-Bold.otf') format('opentype');
+}
 
+@font-face {
     font-family: 'BebasNeue';
     src: url('fonts/BebasNeue-Regular.ttf') format('opentype');
 }
@@ -74,13 +76,13 @@ video {
 .animation-text {
     position: absolute;
     top: 50%;
-    left: 0%;
+    left: 15%;
     transform: translateX(-100%);
     white-space: nowrap; /* Para que el texto no se divida en varias líneas */
     font-size: 7em; /* Tamaño del texto */
     font-family: 'BebasNeue';
     color: white;
-    animation: slideIn 3s forwards; /* 2 segundos de duración, detiene la animación al final */
+    animation: slideIn 2s forwards; /* 2 segundos de duración, detiene la animación al final */
 }
 
 @keyframes slideIn {
