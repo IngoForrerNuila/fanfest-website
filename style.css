@@ -11,6 +11,9 @@ body {
 @font-face {
     font-family: 'Lapsus-pro';
     src: url('fonts/LapsusPro-Bold.otf') format('opentype');
+
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-Regular.ttf') format('opentype');
 }
 
 body {
@@ -48,8 +51,15 @@ video {
     align-items: center;
     padding: 10px;
     padding-right: 20px;
-    position: absolute; /* Posiciona el menú sobre el video */
+    position: fixed; /* Cambié de absolute a fixed */
+    z-index: 1; /* Asegura que el menú esté sobre el video */
     top: 30px; /* Ajusta según tus necesidades */
+}
+
+.left-logo{
+    height: 10%;
+    width: 70%;
+    margin-right: 30%;
 }
 
 .menu-option {
@@ -57,6 +67,42 @@ video {
     font-family: 'Lapsus-pro';
     font-size: 17px;
     margin-left: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
+}
+
+.animation-text {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    white-space: nowrap; /* Para que el texto no se divida en varias líneas */
+    font-size: 7em; /* Tamaño del texto */
+    font-family: 'BebasNeue';
+    color: white;
+    animation: slideIn 3s forwards; /* 2 segundos de duración, detiene la animación al final */
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+.area2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.area3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+}
+
+.area4{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
 }
