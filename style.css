@@ -202,6 +202,8 @@ video {
     }
 
     .area3{
+        height: 1100px;
+        border-top-right-radius: 50px;
         background-image: url('img/portrait-fotos-mobile.png')
     }
 
