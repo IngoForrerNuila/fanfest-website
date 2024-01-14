@@ -142,6 +142,214 @@ video {
     overflow: hidden;
 }
 
+.cont-img{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    padding-top: 2%;
+
+}
+
+.cont1:hover, .cont2:hover, .cont3:hover, .cont4:hover, .cont5:hover, 
+.cont6:hover, .cont7:hover, .cont8:hover, .cont9:hover, .cont10:hover, 
+.cont11:hover, .cont12:hover, .cont13:hover, .cont14:hover, .cont15:hover, 
+.cont16:hover, .cont17:hover, .cont18:hover, .cont19:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.cont1{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont2{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont3{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img3.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont4{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img4.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont5{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img5.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont6{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img6.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont7{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img7.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont8{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img8.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont9{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img9.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont10{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img10.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont11{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img11.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont12{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img12.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont13{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img13.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont14{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img14.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont15{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img15.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont16{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img16.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont17{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img17.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont18{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img18.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont19{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/img19.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
 .area4{
     height: 100vh;
     width: 100vw;
