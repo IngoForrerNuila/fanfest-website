@@ -423,10 +423,28 @@ video {
     }
 
     .area3{
-        height: 1100px;
+        height: 600px;
         border-top-right-radius: 50px;
         background-image: url('img/portrait-fotos-mobile.png')
     }
+
+    .cont-img{
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 8%;
+        padding-top: 45%;
+    }
+
+    .cont1, .cont2, .cont3, .cont4, .cont5, 
+    .cont6, .cont7, .cont8, .cont9, .cont10, 
+    .cont11, .cont12, .cont13, .cont14, .cont15, 
+    .cont16, .cont17, .cont18, .cont19 {
+    margin:0.5%;
+    height: 10vh;
+    width: 20vw;
+}
 
 
 }
@@ -463,8 +481,7 @@ video {
     }
 
     .area2{
-        height: auto;
-        min-height: min-content;
+        
         background-image: url('img/portrait-about-us-mobile.png'); 
     }
 
@@ -480,6 +497,29 @@ video {
         min-height: min-content;
     }
 
+    .area3{
+        
+        border-top-right-radius: 50px;
+        background-image: url('img/portrait-fotos-mobile.png')
+    }
+
+    .cont-img{
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 8%;
+        padding-top: 45%;
+    }
+
+    .cont1, .cont2, .cont3, .cont4, .cont5, 
+    .cont6, .cont7, .cont8, .cont9, .cont10, 
+    .cont11, .cont12, .cont13, .cont14, .cont15, 
+    .cont16, .cont17, .cont18, .cont19 {
+    margin:0.5%;
+    height: 10vh;
+    width: 20vw;
+    }
 
 
 }
