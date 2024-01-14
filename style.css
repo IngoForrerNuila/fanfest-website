@@ -145,7 +145,9 @@ video {
     overflow: hidden;
 }
 
-.cont-img{
+/*--------Contenedores de Imagenes 1---HALLOWEEN PARTY------*/
+
+.cont-img-1{
     height: 50vh;
     width: 60vw;
     display: flex;
@@ -153,7 +155,80 @@ video {
     margin-left: 35%;
     padding-top: 2%;
     justify-content: center;
+}
 
+.cont1-1{
+    background-image: url('img/hall-1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont2-1{
+    background-image: url('img/hall-2.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont3-1{
+    background-image: url('img/hall-3.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont4-1{
+    background-image: url('img/hall-4.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont5-1{
+    background-image: url('img/hall-5.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont6-1{
+    background-image: url('img/hall-6.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont7-1{
+    background-image: url('img/hall-7.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont8-1{
+    background-image: url('img/hall-8.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont1-1:hover, .cont2-1:hover, .cont3-1:hover, .cont4-1:hover, .cont5-1:hover, 
+.cont6-1:hover, .cont7-1:hover, .cont8-1:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
+    .cont6-1, .cont7-1, .cont8-1 {
+        margin:0.5%;
+        height: 15vh;
+        width: 5vw;
+}
+
+/*--------Contenedores de Imagenes 2--MAGIK DAY-------*/
+
+.cont-img-2{
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35%;
+    margin-top: -10%;
+    justify-content: center;
 }
 
 .cont1:hover, .cont2:hover, .cont3:hover, .cont4:hover, .cont5:hover, 
@@ -164,10 +239,16 @@ video {
     transition: transform 0.3s ease; 
 }
 
+.cont1, .cont2, .cont3, .cont4, .cont5, 
+    .cont6, .cont7, .cont8, .cont9, .cont10, 
+    .cont11, .cont12, .cont13, .cont14, .cont15, 
+    .cont16, .cont17, .cont18, .cont19 {
+        margin:0.5%;
+        height: 15vh;
+        width: 5vw;
+}
+
 .cont1{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
     background-image: url('img/img1.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -175,9 +256,6 @@ video {
 }
 
 .cont2{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
     background-image: url('img/img2.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -185,9 +263,7 @@ video {
 }
 
 .cont3{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img3.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -195,9 +271,7 @@ video {
 }
 
 .cont4{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img4.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -205,9 +279,7 @@ video {
 }
 
 .cont5{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img5.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -215,9 +287,7 @@ video {
 }
 
 .cont6{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img6.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -225,9 +295,7 @@ video {
 }
 
 .cont7{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img7.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -235,9 +303,7 @@ video {
 }
 
 .cont8{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img8.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -245,9 +311,7 @@ video {
 }
 
 .cont9{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img9.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -255,9 +319,7 @@ video {
 }
 
 .cont10{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img10.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -265,9 +327,7 @@ video {
 }
 
 .cont11{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img11.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -275,9 +335,7 @@ video {
 }
 
 .cont12{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img12.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -285,9 +343,7 @@ video {
 }
 
 .cont13{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img13.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -295,9 +351,7 @@ video {
 }
 
 .cont14{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img14.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -305,9 +359,7 @@ video {
 }
 
 .cont15{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img15.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -315,9 +367,7 @@ video {
 }
 
 .cont16{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img16.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -325,9 +375,7 @@ video {
 }
 
 .cont17{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img17.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -335,9 +383,7 @@ video {
 }
 
 .cont18{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img18.jpg'); 
     background-size: cover; 
     background-position: center; 
@@ -345,14 +391,14 @@ video {
 }
 
 .cont19{
-    margin:0.5%;
-    height: 20vh;
-    width: 10vw;
+    
     background-image: url('img/img19.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+/*-------------contenedor de videos----------*/
 
 .area4{
     height: 100vh;
@@ -529,8 +575,6 @@ video {
     .area2{
         height: 1100px;
         background-image: url('img/portrait-about-us-mobile.png');
-        
-        
     }
 
     .about-us-p{
@@ -545,19 +589,35 @@ video {
     }
 
     .area3{
-        height: 800px;
+        height: 1100px;
         border-top-right-radius: 50px;
-        background-image: url('img/portrait-fotos-mobile-2.png');
+        background-image: url('img/portrait-fotos-mobile.png');
               
     }
 
-    .cont-img{
-        height: 50vh;
+    .cont-img-1{
+        height: 10vh;
         width: 90vw;
         display: flex;
         flex-wrap: wrap;
         margin-left: 5%;
         padding-top: 75%;
+    }
+
+    .cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
+    .cont6-1, .cont7-1, .cont8-1 {
+        margin:0.5%;
+        height: 10vh;
+        width: 20vw;
+}
+
+    .cont-img-2{
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        margin-top: 30%;
     }
 
     .cont1, .cont2, .cont3, .cont4, .cont5, 
@@ -626,16 +686,16 @@ width: 20vw;
     }
 
     .area2{
-        
+        height: 130vh;
         background-image: url('img/portrait-about-us-mobile.png'); 
     }
 
     .about-us-p{
-        width: 95vw;
+        width: 90vw;
         height: 30vh;
-        margin-left: 2%;
-        padding-top: 37%;
-        font-size: 16px;
+        margin-left: 5%;
+        padding-top: 45%;
+        font-size: 18px;
         font-family: 'frankit';
         white-space: normal; 
         text-align: left;  
@@ -643,13 +703,12 @@ width: 20vw;
     }
 
     .area3{
-        
-        border-top-right-radius: 50px;
+        height: 130vh;
         background-image: url('img/portrait-fotos-mobile.png')
     }
 
-    .cont-img{
-        height: 50vh;
+    .cont-img-1{
+        height: 20vh;
         width: 90vw;
         display: flex;
         flex-wrap: wrap;
@@ -657,13 +716,29 @@ width: 20vw;
         padding-top: 45%;
     }
 
+    .cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
+    .cont6-1, .cont7-1, .cont8-1 {
+        margin:0.5%;
+        height: 10vh;
+        width: 20vw;
+    }
+
+    .cont-img-2{
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5%;
+        padding-top: 20%;
+    }
+
     .cont1, .cont2, .cont3, .cont4, .cont5, 
     .cont6, .cont7, .cont8, .cont9, .cont10, 
     .cont11, .cont12, .cont13, .cont14, .cont15, 
     .cont16, .cont17, .cont18, .cont19 {
-    margin:0.5%;
-    height: 10vh;
-    width: 20vw;
+        margin:0.5%;
+        height: 10vh;
+        width: 20vw;
     }
 
     .area4{
@@ -689,5 +764,15 @@ width: 20vw;
     width: 20vw;
     }
 
+
+}
+
+/*-----------------TABLET HORIZONTAL SETTINGS--------------*/
+
+@media screen and (min-width: 1114px) and (max-width: 705px){
+
+    .area2{
+        height: 120vh;
+    }
 
 }
