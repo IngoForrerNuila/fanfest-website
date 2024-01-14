@@ -84,6 +84,11 @@ video {
     cursor: pointer;
 }
 
+.menu-option:hover {
+    color: rgb(255, 228, 152);
+    text-decoration: none;
+}
+
 .animation-text {
     position: absolute;
     top: 40%;
