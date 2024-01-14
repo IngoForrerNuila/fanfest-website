@@ -123,7 +123,7 @@ video {
 }
 
 .about-us-p{
-    width: 50vw;
+    width: 52vw;
     height: 30vh;
     margin-left: 40%;
     padding-top: 2%;
@@ -357,6 +357,91 @@ video {
     height: 100vh;
     width: 100vw;
     background-color: rgb(255, 255, 255);
+    background-image: url('img/portrait-videos.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.cont-vid{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+.cont-v1:hover, .cont-v2:hover, .cont-v3:hover, .cont-v4:hover, .cont-v5:hover, 
+.cont-v6:hover, .cont-v7:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+
+.cont-v1{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/fanfest2013-videopromo.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont-v2{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/promotion-hp-fanfestsv-2013.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont-v3{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/hola-el-salvador-tvshow-presentation-ff-hp-2013.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont-v4{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/César-Franco-FanFest-El-Salvador-2014.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont-v5{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/cesarfranco-performance-fanfestsv-2014.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.cont-v6{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/cesarfranco-ingoforrer-special-message.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.cont-v7{
+    margin:0.5%;
+    height: 20vh;
+    width: 10vw;
+    background-image: url('img/cesarfranco-fanfestsv-2014.mp4'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .area5{
