@@ -556,7 +556,7 @@ video {
         width: 90vw;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 8%;
+        margin-left: 5%;
         padding-top: 75%;
     }
 
@@ -581,7 +581,7 @@ video {
     width: 90vw;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-top: 60%;
 }
 
@@ -653,7 +653,7 @@ width: 20vw;
         width: 90vw;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 8%;
+        margin-left: 5%;
         padding-top: 45%;
     }
 
@@ -678,7 +678,7 @@ width: 20vw;
         width: 90vw;
         display: flex;
         flex-wrap: wrap;
-        margin-left: 8%;
+        margin-left: 5%;
         padding-top: 40%;
     }
 
