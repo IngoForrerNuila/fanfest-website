@@ -150,8 +150,9 @@ video {
     width: 60vw;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40%;
+    margin-left: 35%;
     padding-top: 2%;
+    justify-content: center;
 
 }
 
@@ -356,6 +357,7 @@ video {
 .area4{
     height: 100vh;
     width: 100vw;
+    align-items: center;
     background-color: rgb(255, 255, 255);
     background-image: url('img/portrait-videos.png'); 
     background-size: cover; 
@@ -369,79 +371,112 @@ video {
     width: 60vw;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40%;
+    margin-left: 35%;
     padding-top: 2%;
+    justify-content: center;
+}
+
+.play-button{
+    max-width: 60%; 
+    max-height: 60%;
+    backdrop-filter: none;
+}
+
+.play-button:hover {
+    transform: scale(0.8); 
+    transition: transform 0.3s ease;
 }
 
 .cont-v1:hover, .cont-v2:hover, .cont-v3:hover, .cont-v4:hover, .cont-v5:hover, 
 .cont-v6:hover, .cont-v7:hover {
-    transform: scale(1.1); 
+    transform: scale(1); 
     transition: transform 0.3s ease; 
 }
 
 .cont-v1{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/fanfest2013-videopromo.mp4'); 
+    background-image: url('img/vid-img-1.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 .cont-v2{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/promotion-hp-fanfestsv-2013.mp4'); 
+    background-image: url('img/vid-img-2.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cont-v3{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/hola-el-salvador-tvshow-presentation-ff-hp-2013.mp4'); 
+    background-image: url('img/vid-img-3.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cont-v4{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/César-Franco-FanFest-El-Salvador-2014.mp4'); 
+    background-image: url('img/vid-img-4.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cont-v5{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/cesarfranco-performance-fanfestsv-2014.mp4'); 
+    background-image: url('img/vid-img-5.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cont-v6{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/cesarfranco-ingoforrer-special-message.mp4'); 
+    background-image: url('img/vid-img-6.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cont-v7{
     margin:0.5%;
-    height: 20vh;
+    height: 35vh;
     width: 10vw;
-    background-image: url('img/cesarfranco-fanfestsv-2014.mp4'); 
+    background-image: url('img/vid-img-7.png'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .area5{
@@ -534,6 +569,28 @@ video {
     width: 20vw;
 }
 
+.area4{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('img/portrait-videos-mobile-2.png'); 
+    
+}
+
+.cont-vid{
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+    padding-top: 60%;
+}
+
+.cont-v1, .cont-v2, .cont-v3, .cont-v4, .cont-v5, 
+.cont-v6, .cont-v7 {
+margin:0.5%;
+height: 25vh;
+width: 20vw;
+}
 
 }
 
@@ -606,6 +663,29 @@ video {
     .cont16, .cont17, .cont18, .cont19 {
     margin:0.5%;
     height: 10vh;
+    width: 20vw;
+    }
+
+    .area4{
+        height: 100vh;
+        width: 100vw;
+        background-image: url('img/portrait-video-mobile.png'); 
+        
+    }
+
+    .cont-vid{
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 8%;
+        padding-top: 40%;
+    }
+
+    .cont-v1, .cont-v2, .cont-v3, .cont-v4, .cont-v5, 
+    .cont-v6, .cont-v7 {
+    margin:0.5%;
+    height: 30vh;
     width: 20vw;
     }
 
