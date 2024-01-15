@@ -247,7 +247,8 @@ video {
 .cont1:hover, .cont2:hover, .cont3:hover, .cont4:hover, .cont5:hover, 
 .cont6:hover, .cont7:hover, .cont8:hover, .cont9:hover, .cont10:hover, 
 .cont11:hover, .cont12:hover, .cont13:hover, .cont14:hover, .cont15:hover, 
-.cont16:hover, .cont17:hover, .cont18:hover, .cont19:hover {
+.cont16:hover, .cont17:hover, .cont18:hover, .cont19:hover, .cont20:hover, .cont21:hover, 
+.cont22:hover, .cont23:hover, .cont24:hover, .cont25:hover {
     transform: scale(1.1); 
     transition: transform 0.3s ease; 
 }
@@ -255,7 +256,8 @@ video {
 .cont1, .cont2, .cont3, .cont4, .cont5, 
     .cont6, .cont7, .cont8, .cont9, .cont10, 
     .cont11, .cont12, .cont13, .cont14, .cont15, 
-    .cont16, .cont17, .cont18, .cont19 {
+    .cont16, .cont17, .cont18, .cont19, .cont20, .cont21, .cont22,
+    .cont23, .cont24, .cont25 {
         margin:0.5%;
         height: 15vh;
         width: 5vw;
@@ -453,11 +455,12 @@ video {
 
 .cont25{
     
-    background-image: url('img/img19.jpg'); 
+    background-image: url('img/img25.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
 }
+
 
 /*-------------memory1-----------------------*/
 
@@ -703,7 +706,7 @@ video {
     }
 
     .area3{
-        height: 1000px;
+        height: 150vh;
         border-top-right-radius: 50px;
         border-bottom: 10px solid rgb(18, 121, 204);
         background-image: url('img/portrait-fotos-mobile.png');
@@ -723,7 +726,7 @@ video {
         display: flex;
         flex-wrap: wrap;
         margin-left: 5%;
-        padding-top: 75%;
+        padding-top: 70%;
     }
 
     .cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
@@ -745,7 +748,8 @@ video {
     .cont1, .cont2, .cont3, .cont4, .cont5, 
     .cont6, .cont7, .cont8, .cont9, .cont10, 
     .cont11, .cont12, .cont13, .cont14, .cont15, 
-    .cont16, .cont17, .cont18, .cont19 {
+    .cont16, .cont17, .cont18, .cont19, .cont20, .cont21, .cont22,
+    .cont23, .cont24, .cont25 {
     margin:0.5%;
     height: 10vh;
     width: 20vw;
@@ -775,8 +779,8 @@ video {
     text-align: left;
     align-items: center;
     color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     margin-top: -20%;
     margin-left: 0%;
 }
@@ -885,7 +889,7 @@ width: 15vw;
 
     .area3{
         
-        height: 140vh;
+        height: 160vh;
         background-image: url('img/portrait-fotos-mobile.png')
     }
 
@@ -901,7 +905,7 @@ width: 15vw;
         display: flex;
         flex-wrap: wrap;
         margin-left: 5%;
-        padding-top: 50%;
+        padding-top: 55%;
     }
 
     .cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
@@ -923,7 +927,8 @@ width: 15vw;
     .cont1, .cont2, .cont3, .cont4, .cont5, 
     .cont6, .cont7, .cont8, .cont9, .cont10, 
     .cont11, .cont12, .cont13, .cont14, .cont15, 
-    .cont16, .cont17, .cont18, .cont19 {
+    .cont16, .cont17, .cont18, .cont19, .cont20, .cont21, .cont22,
+    .cont23, .cont24, .cont25 {
         margin:0.5%;
         height: 10vh;
         width: 20vw;
