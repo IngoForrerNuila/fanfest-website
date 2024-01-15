@@ -414,7 +414,7 @@ video {
 /*-------------memory1-----------------------*/
 
 .memory1{
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -425,11 +425,11 @@ video {
 
 .memo-1-title{
     font-family: 'BebasNeue';
-    font-size: 66px;
+    font-size: 70px;
     text-align: left;
     color: white;
     padding: 10%;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
     transform: rotate(-8deg);
 }
 
