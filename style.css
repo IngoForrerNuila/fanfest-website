@@ -133,6 +133,8 @@ video {
     text-align: left;  
 }
 
+/*--------------------Area FOTOS DESKTOP------------------*/
+
 .area3{
     border-top-right-radius: 80px;
     height: 100vh;
@@ -408,6 +410,37 @@ video {
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+/*-------------memory1-----------------------*/
+
+.memory1{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 121, 204);
+    overflow: hidden;
+}
+
+.memo-1-title{
+    font-family: 'BebasNeue';
+    font-size: 66px;
+    text-align: left;
+    color: white;
+    padding: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transform: rotate(-8deg);
+}
+
+.memo-1-p{
+    font-family: 'frankit';
+    font-size: 26px;
+    text-align: left;
+    color: white;
+    padding: 5%;
+}
+
 
 /*-------------contenedor de videos----------*/
 
