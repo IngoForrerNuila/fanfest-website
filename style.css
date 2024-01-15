@@ -425,7 +425,7 @@ video {
 
 .memo-1-title{
     font-family: 'BebasNeue';
-    font-size: 70px;
+    font-size: 60px;
     text-align: left;
     color: white;
     padding: 10%;
@@ -437,6 +437,7 @@ video {
     font-family: 'frankit';
     font-size: 26px;
     text-align: left;
+    margin-left: -7%;
     color: white;
     padding: 5%;
 }
@@ -658,7 +659,7 @@ video {
         border-top-right-radius: 50px;
         border-bottom: 10px solid rgb(18, 121, 204);
         background-image: url('img/portrait-fotos-mobile.png');
-              
+        gap: 0;
     }
 
     .titles-area3{
@@ -707,9 +708,9 @@ video {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
+    gap: 0;
     justify-content: center;
     align-items: center;
-    border-top: 10px solid rgb(18, 121, 204);
 }
 
 .memo-1-title{
@@ -722,13 +723,14 @@ video {
 }
 
 .memo-1-p{
-    width: 100vw;
-    font-family: 'frankit';
     font-size: 20px;
     text-align: left;
     align-items: center;
     color: white;
-    padding: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: -20%;
+    margin-left: 0%;
 }
 
 .area4{
@@ -834,7 +836,7 @@ width: 15vw;
     }
 
     .area3{
-        margin:0.5%;
+        
         height: 140vh;
         background-image: url('img/portrait-fotos-mobile.png')
     }
@@ -851,7 +853,7 @@ width: 15vw;
         display: flex;
         flex-wrap: wrap;
         margin-left: 5%;
-        padding-top: 48%;
+        padding-top: 50%;
     }
 
     .cont1-1, .cont2-1, .cont3-1, .cont4-1, .cont5-1, 
@@ -877,6 +879,38 @@ width: 15vw;
         margin:0.5%;
         height: 10vh;
         width: 20vw;
+    }
+
+    .memory1{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        border-top: 10px solid rgb(18, 121, 204);
+    }
+    
+    .memo-1-title{
+        font-family: 'BebasNeue';
+        font-size: 60px;
+        text-align: center;
+        padding: 5%;
+        text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+        transform: rotate(-8deg);
+    }
+    
+    .memo-1-p{
+        width: 100vw;
+        font-family: 'frankit';
+        font-size: 20px;
+        text-align: left;
+        align-items: center;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: -20%;
     }
 
     .area4{
