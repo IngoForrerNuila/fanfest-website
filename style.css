@@ -166,7 +166,7 @@ video {
     display: flex;
     flex-wrap: wrap;
     margin-left: 35%;
-    padding-top: 6%;
+    padding-top: 8%;
     justify-content: center;
 }
 
@@ -654,8 +654,9 @@ video {
     }
 
     .area3{
-        height: 1100px;
+        height: 1000px;
         border-top-right-radius: 50px;
+        border-bottom: 10px solid rgb(18, 121, 204);
         background-image: url('img/portrait-fotos-mobile.png');
               
     }
@@ -699,6 +700,35 @@ video {
     margin:0.5%;
     height: 10vh;
     width: 20vw;
+}
+
+.memory1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid rgb(18, 121, 204);
+}
+
+.memo-1-title{
+    font-family: 'BebasNeue';
+    font-size: 50px;
+    text-align: center;
+    padding: 5%;
+    text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
+    transform: rotate(-8deg);
+}
+
+.memo-1-p{
+    width: 100vw;
+    font-family: 'frankit';
+    font-size: 20px;
+    text-align: left;
+    align-items: center;
+    color: white;
+    padding: 5%;
 }
 
 .area4{
