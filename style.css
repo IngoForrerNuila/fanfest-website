@@ -758,32 +758,38 @@ video {
 }
 
 .memory1{
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
     gap: 0;
-    justify-content: center;
-    align-items: center;
 }
 
 .memo-1-title{
+    width: 80vw;
     font-family: 'BebasNeue';
-    font-size: 50px;
+    font-size: 40px;
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-top: 10%;
     text-align: center;
-    padding: 5%;
+    padding: 0%;
     text-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5);
     transform: rotate(-8deg);
 }
 
 .memo-1-p{
-    font-size: 20px;
+    height: 30vh;
+    width: 90vw;
+    font-size: 16px;
     text-align: left;
     align-items: center;
     color: white;
-    padding-left: 7%;
-    padding-right: 7%;
-    margin-top: -20%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 10%;
     margin-left: 0%;
 }
 
@@ -948,6 +954,7 @@ width: 15vw;
     }
     
     .memo-1-title{
+        width: 80vw;
         font-family: 'BebasNeue';
         font-size: 60px;
         text-align: center;
