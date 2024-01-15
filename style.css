@@ -462,7 +462,7 @@ video {
 }
 
 
-/*-------------memory1-----------------------*/
+/*-------------memory1----DESKTOP-------------------*/
 
 .memory1{
     height: 60vh;
@@ -475,6 +475,7 @@ video {
 }
 
 .memo-1-title{
+    width: 25vw;
     font-family: 'BebasNeue';
     font-size: 60px;
     text-align: left;
@@ -485,10 +486,11 @@ video {
 }
 
 .memo-1-p{
+    width: 50vw;
     font-family: 'frankit';
     font-size: 26px;
     text-align: left;
-    margin-left: -7%;
+    margin-left: -10%;
     color: white;
     padding: 5%;
 }
